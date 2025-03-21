@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["gh-pages"]
+    branches: ["gh-pages"] #Run workflow when a push to the branch occurs.
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,9 +29,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout `gh-pages' branch 
         uses: actions/checkout@v4
         with: 
+          ref: gh-pages
           lfs: true
       - name: Install Git LFS
         run: |
