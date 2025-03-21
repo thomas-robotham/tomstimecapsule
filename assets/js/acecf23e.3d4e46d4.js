@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/tomstimecapsule/blog","blogTitle":"TTC Blog","authorsListPath":"/tomstimecapsule/blog/authors"}')}}]);

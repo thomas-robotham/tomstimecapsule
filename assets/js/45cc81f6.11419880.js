@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[689],{9076:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/tomstimecapsule/blog","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Lifestyle and Travel Photography Blog","blogTitle":"TTC Blog"}}')}}]);
